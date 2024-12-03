@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">हाम्रो सेवा</string>
+    <string name="choose_lang">आफ्नो भाषा छान्नुहोस्</string>
+    <string name="select_lang_to_start">सुरु गर्न भाषा चयन गर्नुहोस्</string>
+    <string name="continue_btn">जारी राख्नुहोस्</string>
+    <string name="password">पासवर्ड</string>
+    <string name="phone">फोन</string>
+    <string name="login">लगइन</string>
+    <string name="register">दर्ता गर्नुहोस्</string>
+    <string name="login_using">Login using</string>
+    <string name="already_have_account">पहिले नै खाता छ</string>
+    <string name="name">नाम</string>
+    <string name="unknown">Unknown</string>
+    <string name="services">सेवाहरू</string>
+    <string name="call_now">कल गर्नुहोस्</string>
+    <string name="details">विवरणहरू</string>
+    <string name="description">विवरण</string>
+
+
+</resources>

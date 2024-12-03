@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_radius"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:paddingBottom="50sp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_lang"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_lang_to_start"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="40sp"
+        android:layout_alignParentBottom="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10sp"
+            android:id="@+id/english"
+            app:cardCornerRadius="12dp"
+            >
+            <RelativeLayout
+                android:id="@+id/english_card"
+                android:background="@drawable/lang_selectable"
+                android:layout_width="match_parent"
+                android:padding="20sp"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/lanicon"
+                    android:layout_alignParentStart="true"
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/english_foreground"/>
+
+
+
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/lanicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="English"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/arrow_left"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10sp"
+            android:id="@+id/nepali"
+            app:cardCornerRadius="12dp"
+            >
+            <RelativeLayout
+                android:id="@+id/nepali_card"
+                android:background="@drawable/lang_unselectable"
+                android:layout_width="match_parent"
+                android:padding="20sp"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/lanicon2"
+                    android:layout_alignParentStart="true"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+
+                    android:contentDescription="TODO"
+                    android:src="@drawable/nepali_foreground"/>
+
+
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/lanicon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nepali"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/arrow_left"/>
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_btn"
+            android:backgroundTint="@color/blue"
+            android:background="@drawable/rounded_radius"
+            android:textColor="@color/white"
+            android:layout_margin="10sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

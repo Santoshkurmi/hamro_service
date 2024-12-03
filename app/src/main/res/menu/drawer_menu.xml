@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/logout"
+        android:icon="@drawable/google_foreground"
+        android:title="Logout"
+        />
+
+    <item android:id="@+id/lang"
+        android:icon="@drawable/google_foreground"
+        android:title="Change Language"
+        />
+
+    <item android:id="@+id/admin"
+        android:icon="@drawable/google_foreground"
+        android:title="User Detail"
+        />
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "549784464733",
+    "project_id": "hamro--service",
+    "storage_bucket": "hamro--service.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549784464733:android:ae00d59e20ead0f142ccb4",
+        "android_client_info": {
+          "package_name": "com.hamro.service"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5O7Qd7x0mEAPH0eZsWJ8D04-fAJ7tYs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
